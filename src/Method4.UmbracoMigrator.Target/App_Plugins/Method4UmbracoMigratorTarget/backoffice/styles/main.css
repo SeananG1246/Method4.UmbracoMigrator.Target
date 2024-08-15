@@ -11,7 +11,7 @@
     bottom: 0;
     right: 0;
     left: 0;
-    background-image: url(/App_Plugins/Method4UmbracoMigratorTarget/backoffice/images/UmbracoMigratorTarget_Logo.png);
+    background-image: url(/App_Plugins/Method4UmbracoMigratorTarget/backoffice/images/UmbracoMigratorTarget_Logo_no-margin.png);
     background-repeat: no-repeat;
     background-size: 180px;
     background-position: right 40px top 20px;
@@ -25,7 +25,14 @@
     }
     .migrator-dashboard .settings,
     .migrator-dashboard .phases {
-        width: 30%;
+        width: 35%;
+        min-width: 425px;
+        text-align: left;
+    }
+
+    .migrator-dashboard .settings button,
+    .migrator-dashboard .phases button {
+        text-align: left;
     }
 
     .migrator-dashboard .settings-container {
